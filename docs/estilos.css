@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@339&display=swap');
+
+
+
+
+
 html {
     scroll-behavior: smooth; /* Faz a rolagem ser suave */
 }
@@ -181,11 +187,14 @@ h2 {
 }
 
 .info-button {
-    font-family: arial;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 339;
+    font-style: normal;
     color: #f7f7f7 !important;
-    font-size: 15px;
-    box-shadow: 4px 4px 0px #562859;
-    padding: 9px 25px;
+    font-size: 12px;
+    box-shadow: 4px 4px 0px #4b351e;
+    padding: 7px 10px;
     border-radius: 29px;
     border: 0px dashed #3866A3;
     background: #a1846d;
