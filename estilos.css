@@ -1,0 +1,310 @@
+html {
+    scroll-behavior: smooth; /* Faz a rolagem ser suave */
+}
+        /* Estilos gerais */
+body {
+    font-family: sans-serif; /* Fonte para o corpo do texto */
+    margin: 0; /* Remove margens padrão do body */
+    background-color: #f8f8f8; /* Cor de fundo da página */
+    color: #333; /* Cor do texto principal */
+}
+
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px;
+    text-align: center; 
+    padding-top: 80px;/* Alinha o texto ao centro */
+}
+
+header h1 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+header p {
+    font-style: italic; /* Estilo itálico para a descrição */
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Ajuste a cor conforme necessário */
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;        overflow-x: auto; /* Adiciona rolagem horizontal */
+    white-space: nowrap;
+    background-color: #ffffff; /* Cor de fundo do menu */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(228, 226, 226, 0); /* Sombra no menu */
+}
+
+/* Estiliza a barra de progresso */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: rgb(150, 93, 146);
+    z-index: 1100;
+    transition: width 0.2s ease-out;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: color 0.3s;
+}
+
+nav ul li a.active {
+    color: rgb(149, 120, 120); /* Muda a cor do item ativo */
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 16px; /* Espaçamento interno nos links */
+    border-radius: 5px; /* Bordas arredondadas nos links */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+nav a:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 960px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+*::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 19px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 19px;
+    background-color: #6e5d56;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #452f0f;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #6b4e23;
+  }
+
+
+section {
+    margin-bottom: 30px; /* Espaçamento entre as seções */
+}
+
+h2 {
+    text-align: center;
+    background-color: #a48a7da1;
+    border-radius: 10px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #262222b0; /* Linha abaixo do título da seção */
+    padding: 10px;
+}
+
+
+
+.geladinho-tipo{
+    text-align: center;
+    background-color: #a48a7d46;
+    border-radius: 10px;
+    color: #333333;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #26222285; /* Linha abaixo do título da seção */
+    padding: 3px;
+}
+        
+
+.produto {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #704e2551; /* Borda nos pratos */
+    border-radius: 5px;
+}
+
+.produto h3 {
+    margin-top: 0; /* Remove a margem superior padrão */
+    color: #555;
+}
+
+.produto p {
+    color: #777;
+}
+
+.info-button {
+    font-family: arial;
+    color: #f7f7f7 !important;
+    font-size: 15px;
+    box-shadow: 4px 4px 0px #562859;
+    padding: 9px 25px;
+    border-radius: 29px;
+    border: 0px dashed #3866A3;
+    background: #a1846d;
+  }
+  .info-button:hover {
+    color: #ffffff !important;
+    background: #a37ea9;
+  }
+
+.popup-img {
+    max-width: 300px auto;
+    border-radius: 20px;
+
+}
+
+.popup-title {
+    text-align: center;
+    background-color: #c99f91fe;
+    border-radius: 10px;
+    color: #2a1c11;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #262322b0; /* Linha abaixo do título da seção */
+    padding: 10px;
+}
+
+.popup h3 {
+    text-align: center;
+    background-color: #f1e2ddcd;
+    border-radius: 10px;
+    color: #2a1c11;
+    margin-bottom: 15px;
+    border-bottom: 4px solid #262322b0; /* Linha abaixo do título da seção */
+    padding: 7px;
+}
+
+.popup p {
+    color: #ffffff;
+}
+
+.popup ul {
+    color: #e4e4e4;
+}
+
+.valor {
+    width: 75px;
+    padding: 2px;
+    text-align: center;
+    border-right: solid 2px ;
+    border-bottom: solid 2px ;
+    color: #664d4d !important;
+    background-color: #ead8cb;
+    border-radius: 20px;
+}
+  
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    font-size: 12px;
+    color: #d4cbc3;
+}
+
+.info-button {
+    border: none;
+    border-bottom: 1px solid #3333336e;
+    border-radius: 10px;
+
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup-content {
+    background-color: #161313;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #88888800;
+    border-radius: 20px;
+    width: 80%;
+    position: relative;
+}
+
+.close-button {
+    color: #fbfbfb;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.parent-produto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}
+    
+.div1-produto {
+    grid-column: span 2 / span 2;
+}
+
+.div2-produto {
+    grid-column-start: 3;
+    border-left: solid 2px #d5a789;
+    padding-left: 10px;
+}
+
+.produto img {
+    border-radius: 10px;
+    max-width: 150px;
+    height: auto;
+}
+        
