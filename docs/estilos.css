@@ -5,14 +5,19 @@ html {
 body {
     font-family: sans-serif; /* Fonte para o corpo do texto */
     margin: 0; /* Remove margens padrão do body */
-    background-color: #f8f8f8; /* Cor de fundo da página */
+    background-color: #f8f2eb; /* Cor de fundo da página */
     color: #333; /* Cor do texto principal */
 }
 
 
+header img {
+    max-width: 60px;
+    border-radius: 50px;
+}
+
 /* Estilos para o cabeçalho */
 header {
-    background-color: #333; /* Cor de fundo do cabeçalho */
+    background-color: #312b23; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto do cabeçalho */
     padding: 20px;
     text-align: center; 
@@ -158,6 +163,8 @@ h2 {
         
 
 .produto {
+    background-color: #ffffff;
+    box-shadow: 6px 6px 0px 0px rgb(209, 200, 185);
     margin-bottom: 20px;
     padding: 15px;
     border: 2px solid #704e2551; /* Borda nos pratos */
@@ -188,10 +195,11 @@ h2 {
     background: #a37ea9;
   }
 
-.popup-img {
-    max-width: 300px auto;
+  .popup-img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
     border-radius: 20px;
-
 }
 
 .popup-title {
@@ -215,11 +223,11 @@ h2 {
 }
 
 .popup p {
-    color: #ffffff;
+    color: #ab7b58;
 }
 
 .popup ul {
-    color: #e4e4e4;
+    color: #817463;
 }
 
 .valor {
@@ -236,7 +244,7 @@ h2 {
 
 /* Estilos para o rodapé */
 footer {
-    background-color: #333;
+    background-color: #312b23;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -246,6 +254,22 @@ footer a {
     font-size: 12px;
     color: #d4cbc3;
 }
+
+
+footer img {margin-bottom: 10px;
+    max-width: 40px;
+}
+
+
+.parent-img-footer {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100%; /* Garante que o elemento ocupe toda a altura disponível */
+    width: 100%; /* Opcional, se precisar ocupar toda a largura */
+}
+
+        
 
 .info-button {
     border: none;
@@ -261,22 +285,22 @@ footer a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.671);
     z-index: 1;
 }
 
 .popup-content {
-    background-color: #161313;
+    background-color: #f9f9f9;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #88888800;
+    border: 3px solid #aca089;
     border-radius: 20px;
     width: 80%;
     position: relative;
 }
 
 .close-button {
-    color: #fbfbfb;
+    color: #331603;
     position: absolute;
     top: 10px;
     right: 20px;
