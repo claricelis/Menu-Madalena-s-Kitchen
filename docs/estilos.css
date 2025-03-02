@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand:wght@500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 
 
@@ -20,7 +20,7 @@ body {
 .title {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -44,7 +44,11 @@ header h1 {
 }
 
 header p {
-    font-style: italic; /* Estilo itálico para a descrição */
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 
 /* Estilos para o menu de navegação */
@@ -230,16 +234,23 @@ h2 {
 }
 
 .popup-title {
+    font-family: "Barlow Condensed", serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
-    background-color: #c99f91fe;
+    background-color: #bdaba5fe;
     border-radius: 10px;
     color: #2a1c11;
     margin-bottom: 15px;
     border-bottom: 4px solid #262322b0; /* Linha abaixo do título da seção */
-    padding: 10px;
+    padding: 5px;
 }
 
 .popup h3 {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     text-align: center;
     background-color: #f1e2ddcd;
     border-radius: 10px;
