@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@339&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand:wght@500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 
@@ -13,6 +15,13 @@ body {
     margin: 0; /* Remove margens padrão do body */
     background-color: #f8f2eb; /* Cor de fundo da página */
     color: #333; /* Cor do texto principal */
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 
@@ -178,18 +187,27 @@ h2 {
 }
 
 .produto h3 {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     margin-top: 0; /* Remove a margem superior padrão */
     color: #555;
 }
 
 .produto p {
+    font-size: 13px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     color: #777;
 }
 
 .info-button {
-    font-family: "Quicksand", serif;
+    font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 339;
+    font-weight: 500;
     font-style: normal;
     color: #f7f7f7 !important;
     font-size: 12px;
@@ -236,6 +254,10 @@ h2 {
 }
 
 .popup ul {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
     color: #817463;
 }
 
