@@ -26,7 +26,7 @@ body {
 
 
 header img {
-    max-width: 60px;
+    max-width: 100px;
     border-radius: 50px;
 }
 
@@ -199,8 +199,20 @@ h2 {
     color: #555;
 }
 
+.disponibilidad {
+    max-width: 150px ;
+    padding: 1px 1px;
+    text-align: center;
+    border-right: solid 2px ;
+    border-bottom: solid 2px ;
+    color: #840c0c !important;
+    background-color: #f7b6ad;
+    border-radius: 20px;
+}
+
+
 .produto p {
-    font-size: 13px;
+    font-size: 12px;
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
