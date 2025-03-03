@@ -160,7 +160,7 @@ main {
   }
 
 .slide {
-    background: #eee;
+    background: #f8f2eb;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
@@ -176,7 +176,7 @@ main {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #e4c6ba;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,6 +190,7 @@ main {
   }
 
   .autoplay-progress {
+    display: none !important;
     position: absolute;
     right: 16px;
     bottom: 16px;
@@ -204,6 +205,7 @@ main {
   }
 
   .autoplay-progress svg {
+    display: none !important;
     --progress: 0;
     position: absolute;
     left: 0;
