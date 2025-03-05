@@ -354,6 +354,21 @@ h2 {
     color: #817463;
 }
 
+.popular {
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    border: solid 2px #ffea00;
+    color: #ffffff !important;
+    background-color: #fbd65c;
+    border-radius: 20px;
+
+}
+
+
 .valor {
     width: 75px;
     padding: 2px;
@@ -362,6 +377,19 @@ h2 {
     border-bottom: solid 2px ;*/
     color: #664d4d !important;
     background-color: #ead8cb;
+    border-radius: 20px;
+}
+
+.maiores-18 {
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    border: solid 2px #bd0441;
+    color: #ffffff !important;
+    background-color: #d4868f;
     border-radius: 20px;
 }
   
