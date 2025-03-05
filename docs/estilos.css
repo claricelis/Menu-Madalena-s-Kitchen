@@ -299,8 +299,8 @@ h2 {
     font-size: 12px;
     box-shadow: 4px 4px 0px #4b351e;
     padding: 7px 10px;
-    border-radius: 29px;
-    border: 0px dashed #3866A3;
+    border-radius: 5px !important;
+    border: none;
     background: #a1846d;
   }
   .info-button:hover {
@@ -311,7 +311,7 @@ h2 {
   .popup-img {
     display: block;
     margin: auto;
-    max-width: 300px;
+    width: 50%;
     border-radius: 20px;
 }
 
@@ -358,8 +358,8 @@ h2 {
     width: 75px;
     padding: 2px;
     text-align: center;
-    border-right: solid 2px ;
-    border-bottom: solid 2px ;
+    /*border-right: solid 2px ;
+    border-bottom: solid 2px ;*/
     color: #664d4d !important;
     background-color: #ead8cb;
     border-radius: 20px;
